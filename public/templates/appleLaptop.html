@@ -1,0 +1,9 @@
+
+		<div id="laptops">
+			<h1 ng-model="brandItemProductKey">{{brandItemProductKey}}</h1>
+			<div class="laptop thumbnail" ng-repeat="item in branditems">
+				<a><img ng-src="images/{{brandkey}}/{{brandItemKey}}/{{brandItemProductKey}}/{{item.imgSrc}}" alt=""/></a>
+				<a ui-sref="single" ng-click="sample(item.name)"><h1>{{item.name}}</h1></a>
+				<p>{{item.description}}	</p>
+			</div>
+		</div>

@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:arial;
+	
+
+}
+#tab{
+	margin:0 auto;
+	width:50%;
+	border-radius:5px;  
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+table,th,td{
+	border:1px solid #cfcfcf;
+	
+}
+
+#thRow th,#total th{
+	background-color:#dedede;
+	font-size:12px;
+	text-align:left;
+	padding:10px 0px 10px 10px;
+}
+#firstRow td{
+	font-size:12px;
+	text-align:left;
+	padding:10px 0px 10px 10px;
+}
+#firstRow td input{
+	width:20px;
+	text-align:center;
+}
+#firstRow td a{
+	text-decoration:none;
+	color:#0099FF;
+}

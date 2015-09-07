@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+ <html lang = "en" ng-app="myApp">
+ 	<head>
+ 		<link rel = "stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrapcdn.min.css">
+ 		<link rel = "stylesheet" href = "css/bootstrap.css"/>
+ 		<link rel = "stylesheet" href = "css/style.css"/>
+ 		<link rel = "stylesheet" href = "css/cart.css"/>
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+       
+    </head>
+ 	<body ng-controller="myHomePageControllers as homeController">
+ 		<header>
+ 			<div class="container header-container">
+ 				<div class="logo">
+ 					<a href="#/"><img class="header-img" src="images/logo.gif"></a>
+ 					<div class="text">Get your best</div>
+ 				</div>
+ 				<div class="search-nav-section">
+ 					<nav class="nav-ul-li">
+ 						<ul class="nav-ul">
+ 							<li class="nav-li"><a href="#">sell</a></li>
+ 							<li class="nav-li"><a href="#">Download App</a></li>
+ 							<li class="nav-li"><a href="#">Flipkart First</a></li>
+ 							<li class="nav-li"><a href="#">Flipkart First</a></li>
+ 							<li class="nav-li"><a href="#" data-toggle="modal" data-target="#myModal">SignUp</a></li>
+ 							<li class="nav-li"><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+ 						</ul>
+ 					</nav>
+ 					<div class="searchBarDiv">
+ 						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+ 						<input type="text" class="form-control" ng-model="names" ng-change="changes()" placeholder="Search for a product, Category or brand" aria-describedby="basic-addon2">
+                	</div>	
+                	<div class="searchButtonDiv">
+                		<a id="linking"><input class="searchButton" type="submit" value="Search" ng-click="searchItemDisplay()"/></a>
+                		<ul class="option dropdownSearch" ng-init="visible = true" ng-show="visible">
+						<li  ng-repeat="item in jsonarr|filter:names|limitTo:10"  ng-show="flag" ng-click="clicks(item.name)">{{item.name}}</li>
+						</ul>
+                	</div>
+                	<div class="add-to-cart cartButton">
+                        <a ui-sref="cart">
+                			<span> <img class="carticon" src="images/Shopping.png"/></span>
+                			<span class="cart-label" ng-model="cardItems">cart {{cardItems}}</span>
+                		</a>
+                	</div>
+                </div>
+ 				
+            </div>
+ 		</header>
+ 		<section class="drop-down-section">
+ 			<div class="dropdown">
+	 			<div class="container"> 				
+					<ul class="nav nav-tabs">
+					    <li role="presentation " class="dropdown position1" ng-repeat="(key1,val1) in products">
+					    	<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" ng-click="sample(key1)">
+					     	{{key1}}
+					     	<span class="glyphicon glyphicon-chevron-down down-arrow"></span>
+					      	</a>
+					    
+					    		<div class="table dropdown-menu btn-group-vertical position drop">
+					    			
+					    		        <div class="brand-item" ng-repeat="(key2,val2) in val1">
+					    		        	<h1 class="headerLi"><a ui-sref="items({parem1:key1,parem2:key2})" ng-click="sample(key1,key2)">{{key2}}</a></h1>
+							    			<ul class="item-list-menu">
+							    				<li class="item-list" ng-repeat="(key3,val3) in val2"ng-click="sample(key1,key2,key3)"><a ui-sref="subitems({parem1:key1,parem2:key2,parem3:key3})">{{key3}}</a></li>
+							    				
+							    			</ul>
+						    			</div>
+						    	</div>
+					  	</li>
+					  	
+					</ul>
+	            </div>
+            </div>
+ 		</section>
+	<div class="totalcontainer">	
+		<div class="container">
+			<div ui-view></div>
+		</div>
+	</div>	
+		
+
+ 	</body>
+	<script type="text/javascript" src="vendor/angular.js"></script>
+	<script type="text/javascript" src="vendor/angular-ui-router.js"></script>
+	<script type="text/javascript" src="vendor/angular-route.js"></script>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers/controllers.js"></script>
+	<script src="js/directives/starRatingDirective.js"></script>
+	<script src="js/services/retriveJsonService.js"></script>
+	<script src="js/services/brandItemsRetrieveService.js"></script>
+
+
+	<!--<script type="text/javascript" src="js/myApp.js"></script>-->
+	
+ </html>

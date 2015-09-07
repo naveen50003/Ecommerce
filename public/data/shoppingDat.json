@@ -1,0 +1,168 @@
+{
+ "Electronics": 
+				{
+					"Mobiles" : {
+					              "sony" : [{"name":"Sony Xperia","price":"20000","imgSrc":"mob_sony1.jpg","description":"This is a Sony Product"},
+								           {"name":"Sony Xperia P","price":"25000","imgSrc":"mob_sony2.jpg","description":"This is a Sony Product"},
+								           {"name":"Sony Xperia Z","price":"30000","imgSrc":"mob_sony3.jpg","description":"This is a Sony Product"}],
+								 "MicroMax": [{"name":"MicroMax Turbo","price":"8000","imgSrc":"mob_micromax1.jpg","description":"This is a MicroMax Product"},
+								              {"name":"MicroMax Mini","price":"10000","imgSrc":"mob_micromax2.jpg","description":"This is a MicroMax Product"},
+								              {"name":"MicroMax Canvas","price":"14000","imgSrc":"mob_micromax3.jpg","description":"This is a MicroMax Product"}],
+								  "Samsung" : [{"name":"Samsung Star","price":"4000","imgSrc":"mob_samsung1.jpg","description":"This is a Samsung Product"},
+								              {"name":"Samsung Galaxy S","price":"10000","imgSrc":"mob_samsung2.jpg","description":"This is a Samsung Product"},
+								              {"name":"Samsung Galaxy Star","price":"15000","imgSrc":"mob_samsung3.jpg","description":"This is a Samsung Product"}]
+								 },
+
+
+					"Laptops" : {
+								  "Apple" : [{"name":"Apple Mac Book","price":"95000","imgSrc":"lap_apple1.jpg","description":"This is a Apple Product"},
+										     {"name":"Apple Mac Pro","price":"125000","imgSrc":"lap_apple2.jpg","description":"This is a Apple Product"},
+										     {"name":"Apple AIR","price":"21000","imgSrc":"lap_apple3.jpg","description":"This is a Apple Product"}],
+								  "Dell": [{"name":"Dell Inspiron","price":"28000","imgSrc":"lap_dell1.jpg","description":"This is a Dell Product"},
+										     {"name":"Dell Vastro","price":"18000","imgSrc":"lap_dell2.jpg","description":"This is a Dell Product"},
+							                 {"name":"Dell Intell Core","price":"35000","imgSrc":"lap_dell3.jpg","description":"This is a Dell Product"}],
+								  "Lenovo" : [{"name":"Lenovo G50-70","price":"26500","imgSrc":"lap_lenovo1.jpg","description":"This is a Lenovo Product"},
+											  {"name":"Lenovo E40-70","price":"28999","imgSrc":"lap_lenovo2.jpg","description":"This is a Lenovo Product"},
+											  {"name":"Lenovo I60-80","price":"45999","imgSrc":"lap_lenovo3.jpg","description":"This is a Lenovo Product"}]
+								},
+
+
+					"Tablets" : {
+									 "Google" : [{"name":"Nexus4","price":"52000","imgSrc":"tab_nexus1.jpg","description":"This is a Google Product"},
+												 {"name":"Nexus5","price":"32000","imgSrc":"tab_nexus2.jpg","description":"This is a Google Product"}],
+									"Samsung": [{"name":"Samsung Tablet1","price":"18000","imgSrc":"tab_samsung1.jpg","description":"This is a Samsung Product"},
+												 {"name":"Samsung Tablet2","price":"21000","imgSrc":"tab_samsung2.jpg","description":"This is a Samsung Product"},
+												 {"name":"Samsung Tablet3","price":"22000","imgSrc":"tab_samsung2.jpg","description":"This is a Samsung Product"}],
+									"Sony" : [{"name":"Sony Tab 1","price":"12000","imgSrc":"tab_sony1.jpg","description":"This is a Sony Product"},
+											 {"name":"Sony Tab 2","price":"14000","imgSrc":"tab_sony2.jpg","description":"This is a Sony Product"},
+											 {"name":"Sony Tab 3","price":"13000","imgSrc":"tab_sony1.jpg","description":"This is a Sony Product"}]
+								},
+
+									
+					"TVs" : {
+									 "LG" : [{"name":"LG Smart","price":"24000","imgSrc":"tv_lg1.jpg","description":"This is a LG Product"},
+									           {"name":"LG Platinum","price":"200000","imgSrc":"tv_lg2.jpg","description":"This is a LG Product"},
+									           {"name":"LG Uranium Gold","price":"250000","imgSrc":"tv_lg2.jpg","description":"This is a LG Product"}],
+									 "Samsung": [{"name":"Samsung OLED","price":"150000","imgSrc":"tv_samsung1.jpg","description":"This is a Samsung Product"},
+									              {"name":"Samsung OLED Plus","price":"180000","imgSrc":"tv_samsung2.jpg","description":"This is a Samsung Product"},
+									              {"name":"Samsung ULTRA","price":"190000","imgSrc":"tv_samsung2.jpg","description":"This is a Samsung Product"}],
+									 "Sony" : [{"name":"Sony Pixelliod","price":"95000","imgSrc":"tv_sony1.jpg","description":"This is a Sony Product"},
+									              {"name":"Sony ULTRA HD","price":"220000","imgSrc":"tv_sony2.jpg","description":"This is a Sony Product"},
+									              {"name":"Sony HD Plus","price":"22000","imgSrc":"tv_sony1.jpg","description":"This is a Sony Product"}]
+							}
+									
+				},
+							
+"Media": {
+							
+               "Audio" : {
+							  "POP" : [{"name":"MJ My World","price":"400","imgSrc":"a_album1.jpg","description":"This is a POP Music"},
+										 {"name":"JustinBeiber","price":"300","imgSrc":"a_album2.jpg","description":"This is a POP Music"},
+										 {"name":"Akon","price":"200","imgSrc":"a_album3.jpg","description":"This is a POP Music"}],
+							  "Devotional": [{"name":"Lord Krishna","price":"500","imgSrc":"a_devotional1.jpg","description":"This is a Devotional Music"},
+										 {"name":"Lord Ayyappa","price":"600","imgSrc":"a_devotional2.jpg","description":"This is a Devotional Music"},
+										 {"name":"Lord Venkateswara","price":"700","imgSrc":"a_devotional3.jpg","description":"This is a Devotional Music"}],
+							  "Folk" : [{"name":"Folk Music","price":"100","imgSrc":"a_folk1.jpg","description":"This is a Folk Music"},
+										 {"name":"Folk of America","price":"200","imgSrc":"a_folk2.jpg","description":"This is a Folk Music"},
+										 {"name":"Folk of Goa","price":"300","imgSrc":"a_folk3.jpg","description":"This is a Folk Music"}]
+						},
+
+
+				"Video" : {
+							  "English" : [{"name":"300","price":"100","imgSrc":"v_english1.jpg","description":"This is an English Movie"},
+											 {"name":"Home of G","price":"100","imgSrc":"v_english2.jpg","description":"This is an English Movie"},
+											 {"name":"Lone Survivor","price":"200","imgSrc":"v_english3.jpg","description":"This is an English Movie"}],
+							  "Tamil": [{"name":"Kochadian","price":"50","imgSrc":"v_tamil1.jpg","description":"This is a Tamil Movie"},
+											 {"name":"Vishwa Roopam","price":"40","imgSrc":"v_tamil2.jpg","description":"This is a Tamil Movie"},
+											 {"name":"Kochadian","price":"30","imgSrc":"v_tamil1.jpg","description":"This is a Tamil Movie"}],
+							  "Telugu" : [{"name":"Leader","price":"400","imgSrc":"v_telugu1.jpg","description":"This is a Telugu Movie"},
+											 {"name":"Ongole Githa","price":"500","imgSrc":"v_telugu2.jpg","description":"This is a Telugu Movie"},
+											 {"name":"Endukante Premanta","price":"800","imgSrc":"v_telugu3.jpg","description":"This is a Telugu Movie"}]
+						 },
+
+
+				"Games" : {
+							  "Adventure" : [{"name":"Backstab","price":"100","imgSrc":"games2.jpg","description":"This is an Adventurous Game"},
+											 {"name":"BattleField","price":"200","imgSrc":"games3.jpg","description":"This is an Adventurous Game"},
+											 {"name":"Prince Of Persia","price":"300","imgSrc":"games7.jpg","description":"This is an Adventurous Game"}],
+							  "Action": [{"name":"Lego","price":"100","imgSrc":"games1.jpg","description":"This is an Action Game"},
+											 {"name":"NetRunner","price":"200","imgSrc":"games4.jpg","description":"This is an Action Game"},
+										     {"name":"LegoRun","price":"100","imgSrc":"games1.jpg","description":"This is an Action Game"}],
+							  "Racing" : [{"name":"StarWars","price":"100","imgSrc":"games5.jpg","description":"This is a Racing Game"},
+											 {"name":"League of Legends","price":"200","imgSrc":"games6.jpg","description":"This is a Racing Game"},
+											 {"name":"League of Legends","price":"300","imgSrc":"games6.jpg","description":"This is a Racing Game"}]
+						  }
+		},
+
+"Men":  {
+
+         "Sunglasses" : {
+						 "Raybon" : [{"name":"Rayban","price":"1000","imgSrc":"m_glass_3.jpg","description":"This is a Rayban Product"},
+									 {"name":"Rayban Cool","price":"1500","imgSrc":"m_glass_6.jpg","description":"This is a Rayban Product"}],
+						  "Fast Track": [{"name":"Fast Track Gear","price":"1200","imgSrc":"m_glass_1.jpg","description":"This is a FastTrack Product"},
+										 {"name":"Fast Track EYE","price":"1100","imgSrc":"m_glass_4.jpg","description":"This is a FastTrack Product"}],
+						 "Gucci" : [{"name":"Gucci+","price":"4000","imgSrc":"m_glass_5.jpg","description":"This is a Gucci Product"},
+								    {"name":"Gucci Plus","price":"3000","imgSrc":"m_glass_5.jpg","description":"This is a Gucci Product"},
+									 {"name":"Gucci Pro","price":"3500","imgSrc":"m_glass_5.jpg","description":"This is a Gucci Product"}]
+						 },
+
+
+		 "Footware" : {
+					    "Puma" : [{"name":"Puma Canvas","price":"5000","imgSrc":"m_shoe_1.jpg","description":"This is a Puma Product"},
+								  {"name":"Puma Sports","price":"3500","imgSrc":"m_shoe2.jpg","description":"This is a Puma Product"},
+	    						  {"name":"Puma Plus","price":"2300","imgSrc":"m_shoe3.jpg","description":"This is a Puma Product"}],
+						"Reebok": [{"name":"Rigzig","price":"4500","imgSrc":"m_shoe4.jpg","description":"This is a Reebok Product"},
+								   {"name":"Reebok ++","price":"5100","imgSrc":"m_shoe5.jpg","description":"This is a Reebok Product"},
+		            			   {"name":"Reebok Zig","price":"2100","imgSrc":"m_shoe6.jpg","description":"This is a Reebok Product"}],
+						"Adidas" : [{"name":"Adidas ST","price":"6300","imgSrc":"m_shoe_1.jpg","description":"This is an Adidas Product"},
+							        {"name":"Adidas ++","price":"4200","imgSrc":"m_shoe5.jpg","description":"This is an Adidas Product"},
+								    {"name":"Adidas Sports","price":"2400","imgSrc":"m_shoe3.jpg","description":"This is an Adidas Product"}]
+					},
+
+
+		"Watches" : {
+						"Rolex" : [{"name":"Rolex Silver","price":"100000","imgSrc":"m_watch_1.jpg","description":"This is a Rolex Product"},
+								   {"name":"Rolex Platinum","price":"120000","imgSrc":"m_watch_4.jpg","description":"This is a Rolex Product"},
+								   {"name":"Rolex Gold","price":"160000","imgSrc":"m_watch_6.jpg","description":"This is a Rolex Product"}],
+						"Titan": [{"name":"Titan Plus","price":"4000","imgSrc":"m_watch3.jpg","description":"This is a Titan Product"},
+								  {"name":"Titan ++","price":"5000","imgSrc":"m_watch3.jpg","description":"This is a Titan Product"},
+								  {"name":"Titan Pro","price":"2000","imgSrc":"m_watch3.jpg","description":"This is a Titan Product"}],
+						"Casio" : [{"name":"Casio ++","price":"4000","imgSrc":"m_watch1.jpg","description":"This is a Casio Product"},
+								   {"name":"Casio Plus","price":"5000","imgSrc":"m_watch2.jpg","description":"This is a Casio Product"},
+							       {"name":"Casio Pro","price":"2000","imgSrc":"m_watch5.jpg","description":"This is a Casio Product"}]
+					}
+		 },
+
+ "Women":  {
+
+             "Handbags" : {
+							 "Lee" : [{"name":"Lee ","price":"4999","imgSrc":"w_handbags1.jpg","description":"This is a Lee Product"},
+									  {"name":"Lee Cooper","price":"5999","imgSrc":"w_handbags2.jpg","description":"This is a Lee Product"}],
+							 "Fast Track": [{"name":"FastTrack","price":"3999","imgSrc":"w_handbags3.jpg","description":"This is a FastTrack Product"},
+										    {"name":"FastTrack++","price":"2499","imgSrc":"w_handbags4.jpg","description":"This is a FastTrack Product"}],
+							 "Puma" : [{"name":"Puma","price":"2699","imgSrc":"w_handbags5.jpg","description":"This is a Puma Product"},
+									   {"name":"Puma++","price":"4999","imgSrc":"w_handbags6.jpg","description":"This is a Puma Product"}]
+						  },
+
+
+			  "Jewellery" : {
+								 "Joy alukas" : [{"name":"Joy alukas","price":"300000","imgSrc":"w_jewelery1.jpg","description":"This is a Joy alukas Product"},
+												 {"name":"Joy alukas G","price":"299999","imgSrc":"w_jewelery2.jpg","description":"This is a Joy alukas Product"}],
+								 "Tanishq": [{"name":"Tanishq","price":"50000","imgSrc":"w_jewelery3.jpg","description":"This is a Tanishq Product"},
+											 {"name":"Tanishq Gold","price":"400000","imgSrc":"w_jewelery4.jpg","description":"This is a Tanishq Product"}],
+								 "KPJ" : [{"name":"KPJ","price":"269999","imgSrc":"w_jewelery5.JPG","description":"This is a KPJ Product"},
+										  {"name":"KPJ++","price":"489999","imgSrc":"w_jewelery6.jpg","description":"This is a KPJ Product"}]
+							},
+
+
+			  "Goggles" : {
+							 "Fast Track" : [{"name":"Fast Track Plus","price":"2399","imgSrc":"w_sunglasses1.jpg","description":"This is a FastTrack Product"},
+											 {"name":"Fast Track++","price":"2499","imgSrc":"w_sunglasses2.jpg","description":"This is a FastTrack Product"}],
+							 "Tommy": [{"name":"Tommy Plus","price":"2900","imgSrc":"w_sunglasses3.jpg","description":"This is a Tommy Product"},
+									   {"name":"Tommy ++","price":"3999","imgSrc":"w_sunglasses4.jpg","description":"This is a Tommy Product"}],
+							 "Calvin" : [{"name":"Calvin Plus","price":"2400","imgSrc":"w_sunglasses5.jpg","description":"This is a Calvin Product"},
+										 {"name":"Calvin++","price":"2399","imgSrc":"w_sunglasses6.jpg","description":"This is a Calvin Product"}]
+						  }
+
+	}
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get your Best</title>
+	<link href="css/singleLap.css" rel="stylesheet"/>
+</head>
+<body>
+	<div id="laptops" class="product">
+		<div class="float">
+			<a href="#"><img ng-src="images/{{brandkey}}/{{brandItemKey}}/{{brandItemProductKey}}/{{targetItem.imgSrc}}" alt=""/></a>
+			
+			<h1>{{targetItem.name}}</h1>
+			<p>{{targetItem.description}}</p>
+			<p>&#8377; {{targetItem.price}}</p>
+			<a ui-sref="cart" ng-click="addCart(brandItemProductKey,targetItem.name)"><input type="button" value="Add to Cart" id="myBtn"></a>
+		</div>
+		 <div class="star">
+                <div star-rating rating="starRating1" 
+                    read-only="false" max-rating="10" click="click1(param)" mouse-hover="mouseHover1(param)"
+                    mouse-leave="mouseLeave1(param)">
+                </div>
+                <div>
+                    <span class="label label-primary starrating">Star Rating: {{starRating1}}</span>
+					<button class="label label-primary" ng-click="review()">Review</button>
+                </div>
+				<div ng-show="showReview" class="review">
+					<form name="myForm">
+					<label class="label label-primary starrating">Name:</label><input type="text" class="form-control reviewform" ng-model="uname" placeholder="username" name="uName" required autofocus/>
+					<span style="color:red" ng-show="myForm.uName.$dirty && myForm.uName.$invalid"></span>
+					<span style="color:red" ng-show="myForm.uName.$dirty && myForm.uName.$error.required"></span>
+					<label class="label label-primary starrating">Comments:</label><input type="text" class="form-control reviewform" ng-model="comments" placeholder="post your review here" name="Review" required autofocus/>
+					<span style="color:red" ng-show="myForm.Review.$dirty && myForm.Review.$invalid"></span>
+					<span style="color:red" ng-show="myForm.Review.$dirty && myForm.Review.$error.required"></span>
+					<button class="label label-primary starrating" ng-click="post()" ng-disabled="myForm.$invalid">Post</button>
+					</form>
+				</div>
+				<div ng-show="showPost" class="showpost" ng-repeat= "item in viewPost">
+					<p>{{item.viewComment}}</p>
+				</div>
+            </div>
+	</div>
+</body>
+</html>

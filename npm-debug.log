@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bower' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 silly cache add args [ 'bower', null ]
+5 verbose cache add spec bower
+6 silly cache add parsed spec { raw: 'bower',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'bower',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed bower@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'bower', range: '*', hasData: false }
+11 silly mapToRegistry name bower
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/bower
+15 verbose addNameRange registry:https://registry.npmjs.org/bower not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/bower
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 9:44:41 AM
+19 verbose request id e78ea74d43619d2b
+20 http request GET https://registry.npmjs.org/bower
+21 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+22 info attempt registry request try #2 at 9:44:51 AM
+23 http request GET https://registry.npmjs.org/bower
+24 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+25 info attempt registry request try #3 at 9:45:51 AM
+26 http request GET https://registry.npmjs.org/bower
+27 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org
+27 verbose stack     at errnoException (dns.js:44:10)
+27 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+28 verbose cwd d:\MeanStackProjects\Ecommerce
+29 error Windows_NT 6.3.9600
+30 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "bower"
+31 error node v0.12.2
+32 error npm  v2.7.4
+33 error code ENOTFOUND
+34 error errno ENOTFOUND
+35 error syscall getaddrinfo
+36 error network getaddrinfo ENOTFOUND registry.npmjs.org
+36 error network This is most likely not a problem with npm itself
+36 error network and is related to network connectivity.
+36 error network In most cases you are behind a proxy or have bad network settings.
+36 error network
+36 error network If you are behind a proxy, please make sure that the
+36 error network 'proxy' config is set properly.  See: 'npm help config'
+37 verbose exit [ 1, true ]

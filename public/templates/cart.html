@@ -1,0 +1,41 @@
+
+	<table id="tab" cellspacing="0" >
+		<tr id="thRow">
+			<th>Item</th>
+			<th>Quantity</th>
+			<th>Price</th>
+			<th>  </th>
+		</tr>
+		<tr id="firstRow" ng-repeat = "item in checkItem">
+			<td>{{item.name}}</td>
+			<td>{{item.count}}</td>
+			<td><p>{{item.price}}</p></td>
+			<td><button ng-click='toggleModal(item)'>x</button></td>
+		</tr>
+		<tr id="total">
+			<th>Total</th>
+			<th>{{cardItems}}</th>
+			<th><p>{{price}}</p></th>
+			<th>  </th>
+		</tr>
+	</table>
+  <div class='ng-modal ngmodal' ng-show='show'>
+	<div class='ng-modal-overlay' ng-click='hideModel()'></div>
+	   <div class='ng-modal-dialog' ng-style='dialogStyle'>
+	   	  <div class='ng-modal-close' ng-click='hideModel()'>X</div>
+	   	      <div class='ng-modal-dialog-content'>
+
+			<div id="model">
+				<div id="table" >
+				    <div class="modaltext">Are you sure? This product will no longer be available in your cart.</div>
+					<div>
+						<button class = "okButton btn btn-info" ng-click="remove($index)">Ok</button>
+						<button class="btn btn-info" ng-click="hideModel()">Cancel</button>
+					</div>
+								
+				</div>
+
+			</div>
+			</div>
+	</div>
+</div>
